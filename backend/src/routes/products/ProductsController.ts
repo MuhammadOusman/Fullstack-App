@@ -11,6 +11,7 @@ export function getProductById(req:Request,res:Response){
 
 export function createProduct(req:Request,res:Response){
     res.send('createProduct');
+    console.log(req.body);
 };
 
 export function updateProduct(req:Request,res:Response){
